@@ -8,6 +8,7 @@ namespace ConcesionarioV.Entidades
 {
     public class Inventario
     {
+        public int precio total {get; set;}
         public int Id_Inventario { get; set; }
         public string Marca { get; set; }
         public int Unidades { get; set; }
